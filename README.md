@@ -1,5 +1,7 @@
 # Tips: pyodbc + SQL Server
 
+![CircleCI](https://img.shields.io/circleci/project/github/kitsuyui/tips-pyodbc-sqlserver.svg)
+
 ## build
 
 ```sh
