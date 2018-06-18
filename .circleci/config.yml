@@ -7,10 +7,6 @@ jobs:
     steps:
       - checkout
 
-      - restore_cache:
-          keys:
-          - docker-cache
-
       - run:
           name: build image
           command: |
@@ -20,8 +16,3 @@ jobs:
           name: run tests
           command: |
             docker-compose run --rm python
-
-      - save_cache:
-          paths:
-            - /var/lib/docker
-          key: docker-cache
