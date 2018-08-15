@@ -1,7 +1,7 @@
 version: '3.2'
 services:
   sqlserver:
-    image: microsoft/mssql-server-linux:latest@sha256:8231b746946d12a6a1d5e6c7bcb3d983e97ed1fe5ba3ad04e52305060aced166
+    image: microsoft/mssql-server-linux:latest@sha256:4f769a0b6603f9de2496e3ee455ce6b8b44db642714b50ed89b033e03e6e1e91
     environment:
       - 'ACCEPT_EULA=Y'
       - 'SA_PASSWORD=passWORD1234'
