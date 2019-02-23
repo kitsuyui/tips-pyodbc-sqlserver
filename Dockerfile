@@ -1,4 +1,4 @@
-FROM python:3.7.2-stretch@sha256:d080febec9e26885db2e569d2dee9bd0b1117fb2e219241ac33d118887f7cb94
+FROM python:3.7.2-stretch@sha256:7409dbcf4e217a64b782ae640b2218562f6fe71de20ced03008be5757040f967
 RUN \
 DEBIAN_FRONTEND=noninteractive \
 apt-get update && \
