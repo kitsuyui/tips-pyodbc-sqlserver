@@ -5,4 +5,4 @@
 #    pip-compile --output-file requirements.txt requirements.in
 #
 nose==1.3.7
-pyodbc==4.0.28
+pyodbc==4.0.31
